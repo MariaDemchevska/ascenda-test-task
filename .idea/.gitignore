@@ -1,0 +1,66 @@
+# IntelliJ project files
+.idea/**
+.idea/
+*/.idea
+*.iml
+*.txt
+*.ipr
+*.iws
+out
+gen
+
+# Packaged files
+*.app
+*.apk
+*.apks
+*.zip
+*.jar
+*.war
+*.ear
+*.tar.gz
+*.tgz
+*.rar
+*.ipa
+
+# Java class files
+*.class
+
+# Gradle files
+.gradle/
+build/
+local.properties
+
+# Maven
+target
+
+#allure
+.allure
+allure-results
+
+#WebDriverAgent files
+.wda
+
+# Log Files
+*.log
+**/velocity.log*
+
+# Credentials
+**/src/main/**/credentials.properties
+
+# Test output files
+**/test-output
+source-reports/
+
+# Temp Files
+**/*.tmp
+
+**/mappings/*.json
+**/src/main/resources/mock-servers
+
+**/*.tracetemplate
+
+#execution of profiling mitmdump python plugin produces cache files
+**/profiling/__pycache__/*
+
+# Our files
+.version
