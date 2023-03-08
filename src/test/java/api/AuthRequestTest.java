@@ -60,7 +60,6 @@ public class AuthRequestTest extends AbstractCommonTest {
                 "Decoded IAT vaule should be equal to  \"expires_in\" in the response");
     }
 
-
     private boolean verifyScopeContainsOnlyExpectedValue(String expectedScopeValueRegex, String actualScopeValue) {
         Pattern p = Pattern.compile(expectedScopeValueRegex);
         Matcher m = p.matcher(actualScopeValue);

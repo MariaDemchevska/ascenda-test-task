@@ -39,7 +39,6 @@ public class AuthApiSteps extends AbstractApiSteps {
 
         RequestBody requestBody = RequestBody.create(jsonBody, MEDIA_TYPE_JSON);
 
-
         Request request = restUtils.postRequest(httpUrl, requestBody);
         return restUtils.send(request);
     }
